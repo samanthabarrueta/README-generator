@@ -57,13 +57,13 @@ const generateFile = () => {
 ${answer.description}
 
 ## Table of Contents:
-    *[Description](#Desciption)
-    *[Installation](#Installation)
-    *[Usage](#Usage)
-    *[License](#License)
-    *[Contributors](#Contributing)
-    *[Tests](#Tests)
-    *[Github](#Github)
+    *[Description](# Desciption)
+    *[Installation](# Installation)
+    *[Usage](# Usage)
+    *[License](# License)
+    *[Contributing](# Contributing)
+    *[Tests](# Tests)
+    *[Github](# Github)
 
 ## Installation:
 ${answer.installation}
