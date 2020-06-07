@@ -59,7 +59,7 @@ const generateFile = () => {
 # ${answer.title}
 
 ## Description:
-${answer.badge}
+${answer.badge}\n
 ${answer.description}
 
 ## Table of Contents:
