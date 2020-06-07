@@ -53,7 +53,7 @@ const generateFile = () => {
         const readmeGen = `
 # ${answer.title}
 
-<a name='Description'></a>
+
 ## Description:
 ${answer.description}
 
