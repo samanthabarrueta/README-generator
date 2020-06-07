@@ -1,33 +1,33 @@
 
-# sams
+# README generator
 
-# Description:
-gen
+## Description:
+simple readme generator
 
-# Table of Contents:
-    *[Description](#Desciption)
-    *[Installation](#Installation)
-    *[Usage](#Usage)
-    *[License](#License)
-    *[Contributors](#Contributing)
-    *[Tests](#Tests)
-    *[Github](#Github)
+## Table of Contents:
+    *[Description](# Desciption)
+    *[Installation](# Installation)
+    *[Usage](# Usage)
+    *[License](# License)
+    *[Contributing](# Contributing)
+    *[Tests](# Tests)
+    *[Github](# Github)
 
-# Installation:
-test
-
-# Usage
+## Installation:
 none
 
-# License
+## Usage
+none
 
+## License
+none
 
-# Contributing:
+## Contributing:
+none
 
+## Tests:
+none
 
-# Tests:
-
-
-# Github: 
-
+## Github: 
+none
     
