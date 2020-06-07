@@ -53,11 +53,12 @@ const generateFile = () => {
         const readmeGen = `
 # ${answer.title}
 
-## <a name='Description'>Description:</a>
+<a name='Description'></a>
+## Description:
 ${answer.description}
 
 ## Table of Contents:
-    * [Description](#Desciption)
+* [Description](#Desciption)
     * [Installation](#Installation)
     * [Usage](#Usage)
     * [License](#License)
