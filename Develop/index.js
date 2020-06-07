@@ -47,6 +47,11 @@ const generateFile = () => {
             type:'input',
             name: 'github',
             message: 'What is your github username?'
+        },
+        {
+            type:'input',
+            name: 'badge',
+            message: 'Enter your badge link:'
         }
     ])
     .then((answer) => {
@@ -54,6 +59,7 @@ const generateFile = () => {
 # ${answer.title}
 
 ## Description:
+${answer.badge}
 ${answer.description}
 
 ## Table of Contents:
