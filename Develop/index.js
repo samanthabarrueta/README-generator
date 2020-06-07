@@ -53,10 +53,10 @@ const generateFile = () => {
         const readmeGen = `
 # ${answer.title}
 
-# Description:
+## Description:
 ${answer.description}
 
-# Table of Contents:
+## Table of Contents:
     *[Description](#Desciption)
     *[Installation](#Installation)
     *[Usage](#Usage)
@@ -65,22 +65,22 @@ ${answer.description}
     *[Tests](#Tests)
     *[Github](#Github)
 
-# Installation:
+## Installation:
 ${answer.installation}
 
-# Usage
+## Usage
 ${answer.usage}
 
-# License
+## License
 ${answer.license}
 
-# Contributing:
+## Contributing:
 ${answer.contributing}
 
-# Tests:
+## Tests:
 ${answer.tests}
 
-# Github: 
+## Github: 
 ${answer.github}
     `
     fs.writeFile('READMe.md', readmeGen, (err) => {
