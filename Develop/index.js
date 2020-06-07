@@ -57,7 +57,7 @@ const generateFile = () => {
 ${answer.description}
 
 ## Table of Contents:
-* [Description](#Desciption)
+* [Description](#Description)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
