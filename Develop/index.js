@@ -55,11 +55,10 @@ const generateFile = () => {
         }
     ])
     .then((answer) => {
-        const readmeGen = `
-# ${answer.title}
+        const readmeGen = `# ${answer.title}
 
 ## Description:
-${answer.badge}\n
+${answer.badge}
 ${answer.description}
 
 ## Table of Contents:
@@ -74,10 +73,10 @@ ${answer.description}
 ## Installation:
 ${answer.installation}
 
-## Usage
+## Usage:
 ${answer.usage}
 
-## License
+## License:
 ${answer.license}
 
 ## Contributing:
